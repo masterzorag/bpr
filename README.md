@@ -1,9 +1,10 @@
 # bpr
-bot project repo
+##bot project repo
 
-extentions (never leave an unexecutable w/o an extention)
-.c    c source file
-.h    c header file
-.txt  plaintext file
-.bak  backup file
-.sh   shell script file
+##extentions (never leave an unexecutable w/o an extention)
+###.c    c source
+###.h    c header
+###.txt  plaintext
+###.bak  backup
+###.sh   shell script
+###.md   markdown
