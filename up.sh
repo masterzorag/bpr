@@ -10,7 +10,6 @@
 #   running from a Unix system     #
 #   ie) Linux, OSX, etc.           #
 #       NOT WINDOWS                #
-#     DO NOT MODIFY THIS CODE      #
 # =================================#
 
 function gitEX () {
