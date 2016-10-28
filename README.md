@@ -1,9 +1,9 @@
 # bpr
 bot project repo
 
-extentions (never leave an unexecutable w/o an extention)\n
-  .c    c source file\n
-  .h    c header file\n
-  .txt  plaintext file\n
-  .bak  backup file\n
-  .sh   shell script file\n
+extentions (never leave an unexecutable w/o an extention)
+.c    c source file
+.h    c header file
+.txt  plaintext file
+.bak  backup file
+.sh   shell script file
