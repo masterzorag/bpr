@@ -10,7 +10,7 @@ enum {
   CLAW_OPEN=180
 };
 
-void claw(int op, int wp);  
+void claw(int, int);  
 int servoport1 = 0; /* change to correct port */
 int speed = 2;      /* change to speed you want the claw to open/close at */
 
