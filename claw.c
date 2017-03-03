@@ -10,20 +10,20 @@ enum {
   CLAW_OPEN=180
 };
 
-void claw(int, int);  
+void claw(int,int);  
 int servoport1 = 0; /* change to correct port */
-int speed = 2;      /* change to speed you want the claw to open/close at */
+int claw_speed = 2;      /* change to speed you want the claw to open/close at */
 
-void claw(int orig, int new)
+void claw(int n, int cnt)
 {
-  if (new<CLAW_CLOSE || new>CLAW_OPEN) {
+  int i;
+  if (n<CLAW_CLOSE || n>CLAW_OPEN) {
     printf("invalid claw position\n");
     return;
   }
-  while (orig > new) { /* change to < if positions need it <--- ... */ 
-    orig -= speed; /*change to - if positions need it */
-    set_servo_position(servoport1, orig); 
-    printf("opening or closing claw\n");//to debug issues with the code
+  for (i=0; i<=cnt; ++i) {
+    set_servo_position(servoport1, n); 
+    printf("opening or closing claw\n");
     msleep(100);
   }
 }
