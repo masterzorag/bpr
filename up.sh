@@ -5,8 +5,8 @@
 #   making backups to repo         #
 # > because of this, commits will  #
 #   not have specifics             #
-# > if you us this, make sure you  #
-#   know what it does and are      #
+# > if you use this, make sure     #
+#   you know what it does and are  #
 #   running from a Unix system     #
 #   ie) Linux, OSX, etc.           #
 #       NOT WINDOWS                #
